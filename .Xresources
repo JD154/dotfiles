@@ -1,0 +1,70 @@
+!!--Font Antialiasing------------------------------------------------
+
+Xft.autohint: 0
+Xft.antialias: 1
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.dpi: 96
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+
+!!--Rofi-------------------------------------------------------------
+
+rofi.font: Roboto-Regular 20
+rofi.opacity: 90
+rofi.color-window: #2E3440, #c06c84, #6c5b7b
+rofi.color-normal: argb:008101218, #6c5b7b, argb:00c06c84, argb:20101218, #c06c84
+rofi.lines: 3
+rofi.bw: 3
+
+
+!!--Urxvt------------------------------------------------------------
+
+URxvt*scrollBar: false
+URxvt.background: #2E3440
+URxvt.foreground: #FFFFFF
+URxvt*font: xft:Inconsolata:pixelsize=12:antialias=true
+URxvt*cursorUnderline: true
+
+! Clipboar2
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+
+!!--Colors-----------------------------------------------------------
+
+
+!!dark blue
+*.color0:#2E3440
+!!royal blue
+*.color1: #355c7d
+!!dark purple
+*.color2: #6c5b7b
+!!light pink
+*.color3: #f67280
+!!light red
+*.color4: #c06c84
+!!light green
+*.color5: #83af9b
+!!light yellow
+*.color6: #f8b195
+!!grey ice blue
+!!*.color7: #C7CCD1
+*.color7: #FFFFFF
+!!dark blue
+*.color8:#2E3440
+!!royal blue
+*.color9: #355c7d
+!!dark purple
+*.color10: #6c5b7b
+!!light pink
+*.color11: #f67280
+!!royal blue
+*.color12: #c06c84
+!!light green
+*.color13: #83af9b
+!!light yellow
+*.color14: #f8b195
+!!white
+*.color15: #FFFFFF
+
