@@ -2,7 +2,8 @@
 
 exec --no-startup-id ~/bin/clean_tmp
 
-exec --no-startup-id xrandr --output Virtual1 --mode 1440x900
+#This set the resolution, before apply this setting modify with your resolution
+# exec --no-startup-id xrandr --output Virtual1 --mode 1440x900
 
 exec_always feh --bg-scale ~/Pictures/Wallpapers/eep4_xttmea-christian-bruno.jpg
 
@@ -20,6 +21,11 @@ exec_always --no-startup-id xrdb ~/.Xresources
 set $mod Mod4
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
+# Better tittle bar thanks to /u/Dylan112
+# Title bar format
+# We first set the titlebar font size to a large size to get a good padding amount.
+# We then use pango markup to force i3 to print with the desired font.
+# This gives us large titlebars with a small font. :P
 font pango:Overpass 15
 for_window [class=".*"] title_format "<span font='Overpass 7'> > %title</span>"
 
